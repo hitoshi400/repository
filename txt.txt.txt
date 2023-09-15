@@ -1,0 +1,2107 @@
+Reprint Pallet Label Required - Check pallet hu in UCC128 in t_MW_pallet_ucc128  
+update t_MW_pallet_ucc128 set UCC128='00000193330084937800' where UCC128='00000193330084937817'
+
+
+SELECT IDRRID , count(IDRRID) FROM hijrid WHERE IDIMPS ='I' GROUP 
+BY IDRRID HAVING count(IDRRID) >1                                 
+update hijrid set idimps='C'  where idimps ='I' 
+
+To fulfill obligation as a parent, I am requesting my "in-office hours" to be from 9am - 4:30pm on daily bases.
+
+Paycom  Cusco1108!
+usp_MW_ordput_move_lp_onto_shipment_pallet
+
+Passport
+JRPass
+shirts
+shorts
+shoes
+belt
+toiletory
+medication
+
+
+HJBTQA_SVC  pT5M0r3^B&
+HJBT_SVC  nq6&C3U2RG
+
+
+
+Bad Carrier or ARN
+Invalid LP
+Cannot apply ri
+
+PO not in HJ
+Batch codes
+Item history
+
+52960 Highjump: Change tracking# for order 2918199
+update  HIJASC  set ASTRKN  ='640517468187' 
+WHERE ASCORD like '2918199%'
+
+UPDATE t_wsl_shipment_track
+SET tracking_number = '640517468187'
+WHERE wsl_shipment_track_id = '415195'
+
+UPDATE t_pick_container
+SET tracking_number = '640517468187'
+WHERE container_id = '6687070'
+
+UPDATE t_al_host_asn_case
+SET tracking_number = '640517468187'
+WHERE host_asn_case_id = '9853205'
+
+Username hsasaki
+Password: Hud99978
+
+Dev			
+COIHJDEV1.markwins.com			10.1.1.175
+			
+QA			
+COIHJDBQ1.markwins.com			10.1.1.170
+COIHJAPPQA1.markwins.com			10.1.1.171
+COIHJWEBQA1.markwins.com			10.1.1.172
+
+Discount Drug Mart is not setup for ASN.  To check if order has been shipped and invoiced, you can use quick query below.  MBDHREP is shipment file and MBF9REP is invoice.  
+SELECT 
+DATE(20||SUBSTRING(DHIVNB,2,2)||'-'||
+SUBSTRING(DHIVNB,4,2)||'-'|| SUBSTRING(DHIVNB,6,2)) "Ship Date"
+, DHAENB "CO"
+, DHCVNB "Order No"
+, FEGGNB "Invoice No."
+, DHZ969 "Ship ID"
+FROM AMFLIBN.MBDHREP
+LEFT OUTER join AMFLIBN.MBF9REP ON (FEAENB,FEGGNB,FEHYNB,FECVNB) = (DHAENB,DHGGNB,DHHYNB,DHCVNB)
+Where DHCVNB = '2912260'
+
+XAABCPP - ABALDT >= 1230301 and  ABAGVN = 'FIXSHPR1' 
+ABARQT <> 0
+
+Hold HJ jobs
+Delete orders older than 2/22/2023
+Apply license HJ App server "LOCKED, demo mode" message
+
+
+FedEx station oracle
+C0nference&
+
+
+https://www.fidelity.com/customer-service/money-movement
+
+
+2817478
+MBCLREP        PICK HEADER
+MBCNREP       PICK RELEASE
+MBADREP       RELEASE PF
+Thank you.  What is HIJOHI and ODI based from?   MBADREP?
+The program uses MBCL, MBCN and other files like MBCDRES0
+
+update hijrid set IDIMPS='Z' WHERE idrrid in ('8359') and IDPDTE 
+='2022-05-26 21:23:30' and IDCRDT ='2022-05-25-03.06.02.432443'  
+update hijrid set idimps='C' WHERE idrrid in ('8286') 
+and idimps<>'Z'                                       
+3 rows updated in HIJRID in HIJLIB.                   
+update hijrid set idimps='I' WHERE idrrid in ('8286') 
+and idimps ='Z'                                       
+1 rows updated in HIJRID in HIJLIB.          
+
+interview questions
+DDL and DML
+Function(RETURN)  and stored procedure
+where order ='123' or order='456' and item='ABC'
+Faclty and disabled
+substring(ABCDEFG)
+Foraign key
+IN vs EXISTS
+CURSOR and FETCH
+BEGIN TRAN and COMMIT
+SINONYM
+Trigger
+Performace
+For loop in sql server
+Disadvantage of not having For loop
+While loop CONTINUE and BREAK
+HOW TO COPY A JOB
+SSRS batch
+
+Env=QA. openquery update HIJLIB1.HIJOHI to P status.  Group=.. The OLE DB provider "DB2OLEDB" for linked server "TSTXACOI" could not UPDATE table "[DB2OLEDB]". 
+
+2784566 
+asn 2022-04-15 14:39:49.630
+340 2022-04-15 13:39:25.500
+350 2022-04-15 16:46:34.860
+
+
+tran_log
+host_receipt (156)
+
+C:\Windows\System32\spool\printers\* /Q
+
+Paycom  0DW50A0L9 Cusco1108!
+
+SELECT count(IDREFN),IDREFN, IDPCDE, IDIMPS FROM hijrid WHERE     
+IDIMPS='I' GROUP BY IDREFN, IDPCDE, IDIMPS HAVING count(IDREFN)>1 
+update        hijrid set IDIMPS='C' WHERE IDREFN='17059836581'  
+and IDIMPS='I'                                                  
+
+interview questions
+Foraign key
+IN vs EXISTS
+CURSOR and FETCH
+BEGIN TRAN and COMMIT
+SINONYM
+Trigger
+For loop in sql server
+Disadvantage of not having For loop
+While loop CONTINUE and BREAK
+HOW TO COPY A JOB
+
+PO interface
+A. PO master is cancelled but not interfaced to HJ
+B. PO force close does not interfaced to HJ
+C. PO Line receiving complete does not interface to HJ
+D. PO Line item quantity changes after receiving 
+ or even before receiving
+I'm working on A first
+B, C and D - HJ is not setup for these status 
+correction B & C only - HJ is not setup
+Was A working before and got broken?
+po item cancel - has a bug 
+
+Duplicated records rows in HIJRID causes  "DB2OLEDB" linked server error
+Below for IT note only.
+SELECT IDRRID, count(IDRRID) FROM hijrid WHERE IDIMPS='I' GROUP BY 
+IDRRID HAVING count(IDRRID) >1                                     
+update        hijrid set idimps='C'                    
+                     WHERE idrrid='4825' and idimps='I'
+4 rows updated in HIJRID in HIJLIB.                    
+
+
+loop
+begin tran --default load id in debug
+update t_work_q set workers_assigned=0 where work_q_id='3756736'
+commit
+
+Pick list
+select *
+FROM            dbo.t_pick_detail (NOLOCK) AS pkd INNER JOIN
+dbo.t_order (NOLOCK) AS orm ON orm.order_number = pkd.order_number AND orm.wh_id = pkd.wh_id 
+--INNER JOIN			 dbo.t_pick_container (NOLOCK) AS pkc ON pkd.container_id = pkc.container_id AND pkd.wh_id = pkc.wh_id 
+-- INNER JOIN			 dbo.t_item_master (NOLOCK) AS itm ON itm.item_number = pkd.item_number AND itm.wh_id = pkd.wh_id 
+--INNER JOIN
+dbo.t_item_uom (NOLOCK) AS itu ON itu.item_number = pkd.item_number AND itu.wh_id = pkd.wh_id and pkd.uom = itu.uom
+--			 INNER JOIN
+dbo.t_customer (NOLOCK) AS cus ON cus.customer_id = orm.customer_id AND cus.wh_id = orm.wh_id
+	WHERE pkd.work_type = '20'
+		AND pkd.wave_id = '65769'
+		AND pkd.pick_category IS NULL
+
+
+
+FULLY REMOTE DATES
+Starts: Tuesday 1/4/2022
+Ends: Friday 1/21/2022
+STAGGERED SCHEUDLE DATES
+Re-starting: Monday 1/24/2022
+Ends: Friday 3/4/2022
+
+
+
+New ticket, HJ or RF, option simptom,
+
+Mark Hererra 626-671-9517
+
+177Cuts report.  Add record in MSL002L.  Kmail template CUTSRPTWLG for general use
+
+
+ID. ME IDME-JXKN-TA98-SUMH
+Device list: M:\Public\HighJump\Users List\Assigned Virtual Terminal IDs.xlsx
+
+C/O: 197860 (customer PO: 0009010404)
+
+
+usp_MW_close_SP_shipment - shipment_master
+[usp_MW_al_export_stage_ASN] - shipemnt_detail
+
+8 wks of drug alchole program
+drug test
+20 hrs community service
+4 page essay
+
+DBCC CHECKIDENT('t_tran_log_holding', RESEED, 99999999)
+
+-Start Journal
+-Authorize hold/release orders
+
+irs $216.46
+
+153B3CE2-F899-4A03-B17E-F8C3F96BFCBB
+92BBC520-0883-477B-BCD3-26458FE83D6F
+68383D63-DC3C-41B8-9692-1055B55D7DA3 
+
+
+yPZjegDT+Y+pzLhpyz5yuVYRFPBd9bEQ+NtGFFT7n7+BfyC9KiEa6HaV1cjRb6Ezbe1zcWeV4MjbOG9N31GdPdku8VYiSoAlqmdslVDGnvHETPESM1FWWpRMJ0yGjXK3gXSmB2skbZkPYHO9x+arojy9yYhRT3Si6qgBq4zCwMOUaFqkMXgDrZjUXUSHqBDZU8dcO+PR9G89/pese8gDUBW7DP2mxCD/glPvW1u4cMU59udMEAe+tr4g7+Q2ZcEy8BVk1YjZ4Jr7fGaATKhySjzeGYvWa9j0EalPqvMTSVA1DSXdukILpsX4YwPz8Af2+dsLWELtKzC/wXOqgwBgztmUJwIJEr9Hn7Q56Id1uUnYAdf9tH95F1sViKwnOmDdofYP0h9vtWEih6TKRWJ+eo3TGv7hdFYTXDpZRwIZL0xQhrGOn/McmRVMud7pCdnCH0LFasNfhDUIL7rOmGpIfIjR+j6PALwk++oDzsEY9QQlix/BLZqey3IT7+Gt0VAPRapHto7V9emIJcuBzSbeZg+eKdXhZb26tNvOC0W4n9mYC+asIXd9hbhYEq1dsDcqqVLzdm63SdEIo2nMG25xChaAnhgb8QpoXk/5l00OknIbi5DpL9kt5s9P8E93mtiZuMPPuqrXM3EOkItyE9HGxEAYQ3O/AxkAVTCoSMY0inZeDo2N8SKIeEWW4L0lxaJfrzU368NAIVbLQIYtWfh2jZ72foUFfkgm7zafvZ9ElBt6Sbf+lULaVHVOO0swhCGXSNkId7h03G8xFWKb1Z9+FGn8SKj5tSWoulsOLrhKhWu514P7X16EEWS0S8OuDE2oFFm1fbMGR/9BBMR2bad2LpwPYA4jqYmTo4KMjOLZo68Mm8EamCqQc5YwetLfFF4/LLgKfhmC/+jTNNerUKwO/nC7bTeS/5Vqau4AyBt3wEDg8ERYnH+uU4eCZgJtBp4su5ZPkM54HJZqgPx1YENJTMOtO9sN7KJ0W95qrtnMw0ev8P7fUYiAjUc5McCg9kjemTW8f2NZQmAmmzOAS6fh//ZGWToH8ua2TitryPpo/WtxKf5LnR/Ab6dg51zPqrPaBIM1UVBwpX1BvXfQlvupzA==
+
+
+<!-- QA  -->  
+
+    <add key="ShipService_ClientId" value="45272E84-12B4-425F-ADCE-5C11C3E81876" />
+    <add key="ShipService_ClientUri" value="https://shipping.avectous.com/AvectousShipService_Dev/v1" />
+
+<!-- PROD -->
+
+    <add key="ShipService_ClientId" value="E0368739-50EE-4919-B317-A9FCDD3CD208" />
+    <add key="ShipService_ClientUri" value="https://shipping.avectous.com/AvectousShipService/v1" />
+
+
+
+vpn.markwinsbeautybrands.com 
+
+Liz - PFC
+Karla-MBP
+
+Aframe tote not recognized. - update t_pick_container set status='ACTIVE'
+
+Office pass Los74550
+	Hit3251@
+Wifi guest Gu3s7MW$
+
+
+Five Below POs
+with a as (
+select pd.order_number, od.cust_po_number from t_pick_detail pd join t_order od on pd.order_number=od.order_number where od.cust_po_number  in (
+select po FROM [AAD].[dbo].[fbpo])  group by pd.order_number, od.cust_po_number)
+--select * from a where a.order_number= '2606464-2801716'
+select pd.order_number, a.cust_po_number, count(container_id) as container_count from t_pick_detail pd join a on pd.order_number=a.order_number 
+where container_id is not NULL --pd.order_number = '2606464-2801716'
+group by pd.order_number, a.cust_po_number, container_id
+
+--select container_id from t_pick_detail where order_number='2606715-2801267'
+
+
+Todayis0322 - Kaz iMac
+commercial invoice
+usp_MW_print_report_from_load_plan
+
+340, 350(manual) SP
+340, 350	 LTL	    
+
+130000000334
+12345678901
+
+Sophia You
+1448 Forest Glen Dr #47
+Apt 47
+Hacienda Heights, CA 91745
+
+610-559-4004 sims Rodney
+
+I have the following production issues that I will need to investigate:
+1.	T340 date not showing up on small parcel shipping report……….   This is due to missing or incorrect order number in the tracking table(t_wsl_shipment_track).  I will need to follow where that field in being populated.
+2.	Missing pick list pages(prints) during Wave………Tifmany reported this happened few times before.  I will need to check the pick list generation process.
+3.	Missing Quality Class in inventory item(t_stored_item)…… There were already 6 tickets YTD.  
+=====================
+Non production issues:
+1.	Print Canada Commercial invoice.
+2.	Aframe QA HJ1 page.
+3.	Cartonization process. (CPU ->FDEG)
+4.	Apply fix in Prod for RF problem fix.
+5.	Create a new HJ1 page for item history
+
+
+8402356 2/19  9:30bart
+
+7135741	 2/25 10:50
+10118441 3/01 11:00
+123456789
+
+questions to Wai:99
+containerzation CPU to FDEG
+when work q assigned or deleted
+Quality Class blank in item uom
+Need to check blank or " :' in order number in t_wsl_shipment_track
+I captured some records from the QA tables on the 8th and when I check now they have fewer records for that same timeframe. It seems like some (but not all) are being deleted
+
+Case and mexitem.   case label not printed
+------------------------------
+Josie Hernandez: 
+FYI to change order number in green screen
+COM > 6. File Maintenance >> 10. Company Master  > Option 2 next to Company 20
+I see the next order number in XA N1 is 2593522.   HJ QA has 2593957 
+ok.  Let me try
+[?2/?16/?2021 4:03 PM] Josie Hernandez: 
+Change Review order numbers? . . . . . . .   Y  
+I'm doing it
+
+
+
+ 
+order not written to HIJOHI
+[?2/?9/?2021 12:18 PM] Josie Hernandez: 
+one more update 
+Update hijxaenv set xaelm1 = 'N1'
+Where xaenvi = 'N1'
+And XACFLD = 'WHSEID' 
+
+
+
+7316 		115400		AMAZON.COM	410 TERRY AVENUE NORTH
+7341 		117300		AMAZON	VENDOR MB9GF #56VSRCWP
+7381 MBP	201100		AMAZON	440 TERRY AVE N.
+9937 PFC	30230800	AMAZON.COM,LLC	PO BOX 80387
+9938		30230900	AMAZON.COM,LLC PANTRY	PO BOX 80387
+9939 CAN	30231003	AMAZON.COM CANADA	PO BOX 80387
+14168		30230600	AMAZON.COM,LLC	PO BOX 80387
+14220 MIC	50011100	AMAZON.COM	P.O. BOX 80387
+30230800, 30230900
+
+Waiting for Ivy to re-wave the orders.   Let's see what happens.  
+
+
+update t_MW_routing_request_header set earliest_pick_up_date='2021-02-08 00:00:00.000'  where shipment_id='2582556'  --was 2/5, updated per request from Christine
+
+https://www.youtube.com/watch?v=MnWmv9Plq9k&ab_channel=%E6%95%A3%E6%AD%A9%E3%81%99%E3%82%8B%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%82%A4%E3%83%89
+Ivy			3138
+Jorge Angulo 	626 385 3156
+Vivian		626 385 5080
+Andre: work line is 909-757-5802. My cell # is 626-991-3559 
+Gerardo Chavez  7080
+
+
+usp_MW_al_import_stage_SO   insert into  [dbo].[t_al_host_order_master] from HIJOHI
+usp_MW_al_import_stage_SO_openquery_multi_thread  INSERT INTO	t_al_host_order_master
+
+C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\ildasm.exe
+
+\COIHJDEV\e$\Program Files\HighJump\HighJump One Platform 1.0\MPageRuntime\Web\Extensions\AFrameQA.ascx
+
+AFRAME QC TESTING
+select * from t_pick_detail where order_number like '2559674%'   
+select * from t_pick_detail where order_number like '2559675%'
+select * from t_pick_detail where order_number like '2559677%'
+
+Cuts report MSL002L
+kmail add member
+1.	DBU FILE(KMDATA/POSTMASTER) MBR(CUTSRPTCLA) – this file is where you add or delete email addresses 
+2.	DBU FILE(KMDATA/KMLQUEUE) – this file is to check template was successfully created.  
+3. 	Add Sobeys to msl002l1   
+
+ \\COIFIl05\IT\How_To's\Year end
+
+[?12/?21/?2020 11:23 AM] Hitoshi Sasaki: 
+Troy, I sent up an Amazon order in QA.  Where does pick_detail recrods generated?
+[?12/?21/?2020 11:25 AM] Troy Burnett: 
+You need to create a wave, but OPS will do that just give them the shipment(s) numbers.
+[?12/?21/?2020 11:26 AM] Hitoshi Sasaki: 
+Where do I  assign CTN to items?
+[?12/?21/?2020 11:26 AM] Troy Burnett: 
+You don't, it will assign automatically once waving is complete
+[?12/?21/?2020 11:28 AM] Hitoshi Sasaki: 
+So the pick area is determined based on item number by HJ?
+[?12/?21/?2020 11:28 AM] Troy Burnett: 
+Yes, if there is no FWD pick and less than case it will default to CTN
+
+
+
+Chain 3078 and 3158 for Claire's cuts report.   As of now, we do not have any cuts in December yet. 
+
+cloord
+SELECT sdcbtx, sdgttx, sdaitx, sdhjtx, sditds, sdshpd, sdcvnb,  
+sdcanb, sdhitx, sdb9cd, sdqtyo, sdqtys , sdqtyc, sdupcc FROM    
+msl001d WHERE SDCHNN in (3078, 3158 ) and sdinvd = 20201216     
+
+
+Can I run this in Prod NN?
+add 2906 in SDCHNN in 
+then chgjob DATE(121620)
+CALL MSL002R PARM('CLA') 
+
+6c299001-6989-1a46-90df-0004ac1c6426  y
+77ae0001-517e-1a4c-90e0-0004ac1c6426  n
+16121002-9643-1a58-840f-0004ac1c6426  n
+f7d84002-965e-1a58-840f-0004ac1c6426  y
+
+Items  go to AFRAME when:
+update  HIJLIB/HIJUOM set UMDFTP='Yes'     where UMGUID =       
+'6c299001-6989-1a46-90df-0004ac1c6426'  and UMITEM = '1780067'  
+and UMUOMC ='IP'                                               
+ 6b2fc001-2d2a-1aa0-90e2-0004ac1c6426  
+update  t_item_uom  set default_pick_uom = 'YES' where item_number = '1780067' and uom = 'IP'
+
+select * from   t_item_uom   where item_number = '1780067' and uom = 'IP'
+
+
+
+[?12/?2/?2020 10:35 AM] Josie Hernandez: 
+Did you update table hijicfpf 
+[?12/?2/?2020 10:36 AM] Hitoshi Sasaki: 
+No, but let me check
+[?12/?2/?2020 10:36 AM] Josie Hernandez: 
+item need to be added to this table
+[?12/?2/?2020 10:39 AM] Hitoshi Sasaki: 
+Added in N1.  Do I do something to send it to HJ?
+[?12/?2/?2020 10:42 AM] Josie Hernandez: 
+HIJIMIR4 
+edit it for just that item and call it
+where itnoad
+
+  
+
+
+journal 
+8. Cross app .. 13. Journal mana...
+I was going to update a file HIJXAENV
+XA Hold held/release authorization
+Green Screen
+go into env.
+cas -> 3 -> 8 -> 1 ->CSM -> CSM C.O. Hold Tasks -> 16
+No cost hold - 3. Data group and task authorizations, 3333
+
+then look for permission
+and authorize yourself to it
+
+
+
+HJ training videos: \\10.1.1.21\it\How_To's\HighJump\HighJump_Vlab_Editor
+
+Ring Central: Kof83308
+
+How to give XA authorization
+[?10/?1/?2020 11:34 AM] Josie Hernandez: 
+CAS > 3. Maintenance/Change > 8. Security Maintenance >2. User authorizations >
+Position to user ID . . . .   HSASAKI 
+Opt     User ID         Name             
+13      HSASAKI         IT-Hitoshi Sasaki 
+1   CSM    Customer Service Manageme 
+19      Some     CSM Change Tasks    
+Position to task ID . . .   CORHLD 
+Opt  Access  Authorized    Task ID           
+16     Y         Y         CORHLD     CHANGE 
+                           Change C.O. Holds  
+yup, I did.  I'll logg off nad try.  Thank you
+
+
+
+SELECT * FROM hijodi WHERE OdORDN like '2504047%'     
+ODCITM                                                
+
+
+SELECT * FROM hijohi WHERE OHDEPT <> ' ' -department  
+
+
+sherrell.panoff@stjohns.k12.fl.us
+
+exec [DAYSADDNOWK] '20200828', '2'
+
+DECLARE @toDay as DATE = getdate();
+exec DAYSADDNOWK @toDay, '2'
+
+CREATE FUNCTION [dbo].[DAYSADDNOWK](@toDay AS DATE, @numDays AS INT)
+RETURNS DATETIME
+AS
+BEGIN
+DECLARE @addDate as DATE;
+  --  SET @addDate = DATEADD(d, @numDays, @addDate)
+    IF DATENAME(DW, @toDay) = 'Sunday'          SET @addDate = DATEADD(d, 3, @toDay)
+    IF DATENAME(DW, @toDay) = 'Monday'          SET @addDate = DATEADD(d, 2, @toDay)
+       IF DATENAME(DW, @toDay) = 'Tuesday'             SET @addDate = DATEADD(d, 2, @toDay)
+      IF DATENAME(DW, @toDay) = 'Wednesday'   SET @addDate = DATEADD(d, 2, @toDay)
+      IF DATENAME(DW, @toDay) = 'Thursday'     SET @addDate = DATEADD(d, 4, @toDay)
+      IF DATENAME(DW, @toDay) = 'Friday'       SET @addDate = DATEADD(d, 4, @toDay)
+      IF DATENAME(DW, @toDay) = 'Saturday'     SET @addDate = DATEADD(d, 3, @toDay)
+ 
+    RETURN CAST(@addDate AS DATETIME)
+END
+ 
+
+
+CREATE FUNCTION DAYSADDNOWK(@addDate AS DATE, @numDays AS INT)
+RETURNS DATETIME
+AS
+BEGIN
+    SET @addDate = DATEADD(d, @numDays, @addDate)
+    IF DATENAME(DW, @addDate) = 'Sunday'   SET @addDate = DATEADD(d, 1, @addDate)
+    IF DATENAME(DW, @addDate) = 'Saturday' SET @addDate = DATEADD(d, 2, @addDate)
+ 
+    RETURN CAST(@addDate AS DATETIME)
+END
+
+
+
+
+How can I check in XA that these shipments are processed correctly?   I manually updated ARN in HJ to send down to XA for the pre-MTP Amazon orders
+[?8/?25/?2020 11:10 AM] Josie Hernandez: 
+Check shipment file MBDHREP  
+
+
+SELECT * from v_shipping_labels (NOLOCK)
+WHERE  (print_id = ?print_id)
+
+Bartender with 3 printer support Contract number - 2R-SB3DG-MH4L6-SL07 
+
+(425) 686-9971 - contract number 2R-M0SSQ-XW42S-XF00 
+Bartendar with 30 printer support Contract number - 2R-M0SSQ-XW42S-XF00   
+
+HJS pass: HJSPASS#1   MarkwinsPrintService
+
+
+Phone: +1 (425) 686-9971
+30 printer contract is avaialble for on phone support     
+Its under Markwins International or Markwins Beauty Brands
+
+
+** Validate routing instruction 
+Check SCAC setup already in master file 
+Check Shipment ID and routing request existed in file 
+
+** Apply instruction 
+Update carrier/SCAC/routing reference number in order table (t_order) 
+
+
+page#
+1391 Customer Carrier
+1146 Customers
+
+ 
+Architect deployment recording
+\\10.1.1.21\it\How_To's\HighJump\Deployment of MTP  Meeting Recording
+
+
+ALTER TABLE [dbo].[t_MW_routing_request_header]
+alter column 	[earliest_pick_up_date] [datetime]   NULL
+
+
+
+send routing request  page 14
+
+~~ SQL Server ~~
+Update t_MW_routing_request_header
+Set request_status = '30'
+Where routing_request_id = '~routing_request_id~'
+
+Select 'Routing request ' + '~routing_request_id~' + ' is sent out'
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+XA has a Journal Management.  All High Jump interface files were added to AMFIBN/JRNFIL. Then,  start journaling using menu option.  
+1.	8. Cross Application Support >>
+2.	13. Journal Management >>
+3.	2. Start Journaling
+
+
+weight and volume
+usp_MW_al_export_stage_ASN
+
+
+5/11/2020 from Troy
+-----Original Message-----
+From: Troy Burnett [tburnett@markwins.com]
+Sent: 4/14/2020
+Subject: Delete HJ Pick
+We have one shipment with two picks, 2502637-1971445/1957811.
+              We will need to delete 1957811, so we can invoice 1971445
+
+Discussed the issue.  Troy's intent in this call is NOT to have support clean the data up, it is to help them identify what relationship the data has so they can properly clean this up without a call to support
+
+Issue:  Two pick transactions were issued for a shipment.  First pick was successful and inventory shipped out.  Second pick successful to staged but cannot be unpicked.  Enough has happened around order that their standard HJ procedures cannot fix the inventory issue.
+
+Laid out for Troy what needs to be looked at and determined for the inventory to see if it is tied to the second pick.  Discussed that if no inventory tied, change the pick to cancel and be done.  However if inventory is tied it has to move back and pick to cancel.
+
+He is going to have his dba persons start to get information so they can go forward.
+
+Information that was left
+--start with pick record, verify inventory if associated, work q if open
+
+select * from t_pick_detail with(nolock)
+where order_number = <your order number> and wh_id = <'your warehouse'>
+-- the pick id in this record is the type field in the inventory record
+
+select * from t_stored_item with(nolock)
+where type in (select pick_id t_pick_detail with(nolock)
+where order_number = <your order number> and wh_id = <'your warehouse'>)
+--this gives inventory tied to the pick record - if this inventory is here, does it belong
+--this also tells the license plate attached to the record
+
+select * from t_hu_master with (nolock)
+where hu_id in (select hu_id from t_stored_item with(nolock)
+where type in (select pick_id t_pick_detail with(nolock)
+where order_number = <your order number> and wh_id = <'your warehouse'>))
+--gives related hu
+
+--If there is inventory you need to make sure it is real - if it shipped out and the host has it
+--mark pick detail and shipped and delete the inventory.  If it is NOT shipped out, must be returned
+--to inventory status so it can be put with something else.
+
+--If no inventory is related to pick, set pick to shipped status and be done.
+
+
+Log HJ Amazon time.
+
+
+Hitoshi,
+Thank you for the update.
+I suggest you review the MTPs forms for HJ- listed in Troy’s email.
+I am guessing, it has been a while since you or Wai promoted in UAT.
+
+In addition to Amazon, we have the views for MBBI.
+I sent you the email with 4 prioritized reports.
+
+Thanks!
+Neeta
+
+ Mailbox: POSTMASTER  Member: TGTWKLYCUT        
+  reports@markwins.com                          
+  ksturges@jacobsmarketing.com                  
+  aanderson@jacobsmarketing.com                 
+  gwatson@jacobsmarketing.com                   
+  jnovikoff@markwins.com                        
+
+
+
+23954 Macy's
+usp_MW_Aframe_PackConfirm
+usp_MW_carton_SSCC
+usp_MW_Paper_PackConfirm
+usp_MW_create_pick_detail_mp
+usp_MW_pallet_SSCC
+usp_MW_unpick_container
+
+25412 Aframe Pack confirm
+usp_MW_Aframe_PackConfirm
+
+
+send email to jason  for the souce
+source preservation
+YEAR END NOT PROMOTED
+
+
+usp_MW_carton_SSCC_lorac
+usp_get_company_SSCC_ext
+usp_MW_create_pick_detail
+usf_get_company_SSCC_ext
+usp_MW_Aframe_PackConfirm
+usp_MW_pallet_SSCC
+xxxxxxxxusp_MW_unpick_container
+usp_MW_Paper_PackConfirm
+usp_MW_carton_SSCC
+usp_MW_create_pick_detail_mp
+
+(No column name)	name	cached_time	last_execution_time	execution_count
+AAD	usp_MW_Aframe_PackConfirm	2020-03-16 10:09:56.670	2020-04-20 13:39:51.960	39681  done
+AAD	usp_MW_carton_SSCC		2020-03-16 07:53:06.417	2020-04-20 14:59:35.027	2912   done
+AAD	usp_MW_Paper_PackConfirm	2020-03-16 06:20:32.130	2020-04-20 17:07:41.623	34991  done
+AAD	usp_get_company_SSCC_ext	2020-03-16 06:19:29.293	2020-04-20 17:03:45.050	42592
+AAD	usp_MW_create_pick_detail_mp	2020-03-16 08:04:05.650	2020-04-20 16:32:00.420	1449   done
+AAD	usp_MW_pallet_SSCC		2020-03-16 06:19:28.863	2020-04-20 17:03:45.050	5197   done
+AAD	usp_MW_unpick_container		2020-03-16 06:45:10.900	2020-04-18 10:26:35.137	398	done
+
+
+
+Wave plan
+1.	Shipment added to wave and released for picking activities
+a.	Paper pick list is only generated for MBP/LORAC quick pick area
+b.	Pick, pack, staging status update are part of the picking process
+c.	Small parcel shipments will be processed at FedEx/UPS stations
+d.	LTL shipments will be processed in step 2
+
+2.	Shipment added to wave and released when loading begins
+a.	Carrier & PRO # need to assigned before load can be released  
+b.	LTL paperwork (BOL, PL, Commercial Invoice) are generated once shipments(s) are staged
+c.	Load ship is the only status updated, and shipment is shipped/closed
+d.	 340/350, ASN data sent to XA
+ 
+MBBI MySql pass MarkwindUSER T612g-o8djuqGtr2 
+
+CREATE VIEW AMFLIBU/VITMBAHAR AS SELECT               
+CAST(it.itnbr AS CHAR(10) CCSID 37) AS itnbr ,        
+CAST(it.itdsc AS CHAR(30) CCSID 37) AS itdsc ,        
+CAST(it.itcls AS CHAR(30) CCSID 37) AS itcls ,        
+ix.ixcqty, ix.ixeanc, ix.ixoean, ix.ixshde,           
+ix.ixpcat, ix.ixscat, ix.ixipqt                       
+FROM itmrva it,itmrext ix WHERE it.itnbr = ix.IXITEM  
+View VITMBAHAR created in AMFLIBU.              
+
+CREATE VIEW AMFLIB3/VITMRBAHAR (ITEM, DESCRIPTION, CLASS,          
+ACC_CLASS, ACC, CASE_QTY, EAN, CASE_EAN, PRODUCT_CAT, SUB_CAT,     
+INNER_PACK) AS SELECT CAST(ITNBR AS CHAR(15) CCSID 37) AS ITEM,    
+CAST(ITD20 AS CHAR(30) CCSID 37) AS DESCRIPTION, CAST(ITCLS AS     
+CHAR(30) CCSID 37) AS CLASS, CAST(RV.ITAC AS CHAR(30) CCSID 37) AS 
+ACCOUNTING_CLASS , CAST( ITAD AS CHAR(30) CCSID 37) AS             
+ACCOUNTING_CLASS , IXCQTY AS CASE_QTY,IXOEAN AS EAN,IXSHDE AS      
+CASE_EAN,IXPCAT AS PRODUCT_CAT,IXSCAT AS SUB_CAT,IXIPQT AS         
+INNER_PACK FROM AMFLIB3.ITMRVA RV,AMFLIB3.ITMREXT RX,              
+AMFLIB3.ITACCD AC WHERE RV.ITNBR = RX.IXITEM AND RV.ITAC= AC.ITAC  
+View VITMRBAHAR created in AMFLIB3.             
+
+create view amflib3.vcustbahar as                                 
+SELECT DISTINCT BF.COMNO, BF.CUSNO, BF.CUSNM ,MBALREP.ALCLTX ,     
+EK.TAXNU as VAT, bf.cuscl,bf.bfaab6,bf.terrn,dzcttx, case when     
+bf.acrec = 'S' then 'SUSPENDED' else ' ' end status, case when     
+bf.bkord='0' then 'NO' when bf.bkord='1' then 'YES' else bf.bkord  
+end backord, case when bf.bfhwst='4' then                          
+'All orders, all shipments, all ship-tos' when bf.bfhwst='2' then  
+'One order, all shipments, all ship-tos' when bf.bfhwst='0' then   
+'One order, one shipments, one ship-tos     ' when bf.bfhwst='1'   
+then 'All orders, one shipments, one ship-tos    ' else bf.bfhwst  
+end invoice_consolidation FROM amflib3.MBBFREP bf, amflib3.MBALREP,
+amflib3.MBEKREp ek ,                                               
+amflib3.YACSREP ,amflib3.mbdzrep WHERE bf.COMNO = ALAENB and       
+ek.COMNO = ALAENB and                                              
+bf.CUSNO = ALCANB and bf.CUSNO = ek.cusno and ALE2ST=1 and         
+bf.terrn= DZC0CD                                                   
+
+
+
+
+SELECT
+  substr(cast(dhivnb as char(7)),6,2)||'/'||substr(cast(dhivnb as char(7)),4,2)
+||'/'||'20'||substr(cast(dhivnb as char(7)),2,2) as Ship_Date
+, case 
+        when dhdccd = '1' then 'CO'
+        else 'CM'
+        end as Type     
+, DHA3CD "WHSE"
+, DHAENB "Company"
+, DDCVNB "Order No"
+     , BWCBTX "Customer PO"
+     , DHGGNB "Invoice No."
+     , DHCANB "Customer"
+     , BWAQTX "Cust. Name"
+   
+     , DHB9CD     "Ship To"
+     , DHBYTX "Ship To Name"
+     , DHAAGX     "Ship To City"
+     , DHDXCD     "Ship To State"
+     , itclad "Item Class"
+       , DDFCNB "Seq"
+     , DDAITX     "Item No"
+     , DDALTX "Item Description"
+     , DDG6CD "Non Inv Item"
+     , DDHPTX "Non Inv Desc"
+     , DDHSVA "Order Qty"
+     , DDAAGM "Discount"
+     , DDARQT     "Ship Qty"
+     , DDDTVA     "Sell Price"
+     , DDDUVA     "Net Sales"
+     , cast(SUBSTRING(DHIVNB,4,2)as dec(2,0)) as "Month"
+     , cast(SUBSTRING(DHIVNB,2,2)as dec(2,0)) as "Year"
+    , DHIVNB "XA Date"
+     FROM AMFLIBU.MBDDREP 
+     join  AMFLIBU.MBDHREP on (DDAENB,DDDCCD,DDCVNB,DDK4NB) = (DHAENB,DHDCCD,DHCVNB,DHK4NB)
+     join AMFLIBU.MBBWCPP on (BWAENB,BWDCCD,BWCVNB) = (DHAENB,DHDCCD,DHCVNB)
+     left outer join amflibu.itmrval1 on itnoad = ddaitx
+
+Thank you.
+
+Best Regards,
+Josie Hernandez
+IT Department
+Markwins International
+Phone 626.385.5022
+Email: jhernandez@markwins.com
+
+
+
+
+
+                      Member/    
+File       Library    Device     
+SYSROUTINE QSYS2      SYSROUTINE 
+QASQRESL   QSYS2      QASQRESL   
+QASQVRSS   QSYS2      QASQVRSS   
+ITMRVAL1   AMFLIBU    ITMRVAL1   
+ITMREXT    AMFLIBU    ITMREXT    
+ITACCDL0   AMFLIBU    ITACCDL0   
+ITMREXTI02 AMFLIBU    ITMREXTI02 
+
+
+      
+
+CREATE VIEW AMFLIBU/VSHPITM1 AS SELECT SQ.DDAENB, SQ.DDAOCD,       
+SQ.DDA0CD, PP.BWCANB, PP.BWAQTX FROM mbddrep sq, mbbwcpp pp WHERE  
+SQ.DDCVNB= PP.BWCVNB  
+                                             
+[?3/?20/?2020 2:12 PM] Josie Hernandez: 
+look at INV7360R1 in MBBPGMN
+old program uses ILCLOT in PHY_CSTFIL
+calculates shelf life
+ 
+
+
+call jdbctest3 ('com.microsoft.sqlserver.jdbc.SQLServerDriver'
+'jdbc:sqlserver://10.1.1. 176:1433'
+'AAD'
+'MARKWINS\HSASAKI'
+'Kof83306'
+'select * from t_stored_item')                                   
+
+2430118-1461322
+
+
+HIJISIR1
+hijxaenv  if   e    
+ * out of synch file 
+hijisi -> hijoospf  uf   e    
+
+MRT->MQ Ret recovery not transfer or QC change
+Recovery should not be from MV
+
+
+I have a favor to ask.
+I want to bring my son to LA for the summer.  I will be sending him to the summer camp in Cal Poly Pomona(tentatively between 6/8 - 7/31).
+What I need is to leave at 4:30pm during that time to go pick him up. I can then ether come back to the office(though this is againt company policy - my son can quietly sit here in the office) 
+or I can work from home to finish up.  
+Most importantly, I will do my best not to be hinderance to my work.
+ 
+
+
+
+
+Highjump topics
+
+How to look for page editor for stored procedures.
+How to source compare
+usp_MW_al_export_inventory_snapshot 
+t_stored_item -> t_al_host_inventory_snapshot
+
+Member CUTSC22 from MBBPGMN/QSRC has been archived as S000000713.   
+Member SAP7125R1 from MBBPGMN/QSRC has been archived as S000000714. 
+
+
+ginasasaki@mdcredentialingplus.com
+
+SLTK incomplete.  Check pre-post processing for the library name
+
+
+update aaarep set aaaagy =(select sum(ascwtc) from              
+aaarep inner join hijasc on                                     
+ascord=AANTCD and ascrnm=AAKZNB    and ascwtc is not NULL  )    
+3 rows updated in AAAREP in HSASAKI. 
+
+ update        aaarep set aaaagy =(select sum(ascwtc)         
+ from hijasc where                                            
+ ascord=AANTCD and ascrnm=AAKZNB group by ascord,ascrnm )     
+ 3 rows updated in AAAREP in HSASAKI.                         
+
+
+-	Class
+-	Customer Channel
+-	Channel Segment
+-	Customer Segment
+-	Sales Manager ID
+-	Sales Manager Name
+-	Sales Rep ID
+-	Sales Rep Name
+-	Commissionable Percent
+
+;with cte AS (
+	select 'WA' system_id, '318' tran_type, 'Shipment Move (Pick)' description, 'NO' send_to_adv_link, 'MOVE' inventory_action
+	UNION ALL
+	select 'WA' system_id, '319' tran_type, 'Shipment Move (Put)' description, 'NO' send_to_adv_link, 'MOVE' inventory_action
+)
+--insert into t_transaction (system_id, tran_type, description, send_to_adv_link, inventory_action)
+select system_id, tran_type, description, send_to_adv_link, inventory_action
+	from cte
+	where not exists 
+			(select 1 from t_transaction (NOLOCK) t2
+				where t2.system_id = cte.system_id
+				and t2.tran_type = cte.tran_type
+			)
+
+
+
+Two DB server Spain 10.3.10.36
+MWSPAINSQL01/InforSvc
+P0werl!nk
+ 		PP	 CSTPRD		PRD
+BSH131C  	9/7/19	 6/12/08	10/17/05		
+BSY029R   	8/28/19	 11/19/15 	03/01/06
+BSY029R3	08/28/18 11/03/16 	-
+BSY317R		09/04/18 10/28/16 	01/09/06
+RPK029D     	11/10/16 11/01/07	02/06/06
+
+SELECT  'db obj','dbobj', so.name, so.xtype , null
+  FROM syscomments sc
+INNER JOIN sysobjects so
+    ON sc.id=so.id
+--WHERE UPPER(sc.text) LIKE UPPER('%config_display%')
+WHERE UPPER(sc.text) LIKE UPPER('%t_al_host_asn_pallet%')
+
+
+
+
+Paul,
+
+1.	Is there any ways to list out the programs that updates quality_class in t_stored_item?   -  Additionally we want set a watch for that field.    Are there any debugging tools we can try out?
+2.	I didn’t find a HJ1 page for the quality class update.   Also there are no records with quality_class = NULL in the interface table that HJ receives from XA,  so it must be done internally in HJ.
+3.	Run   select count(*) from t_stored_item where quality_class=NULL  daily.
+
+I think we need to do No. 1 and that will take time,  but in the meantime, can we schedule a job (No. 3) to send an email?
+2822349-4025405
+
+Thank you.
+
+sp_addmergepullsubscription_agent
+
+
+QA App server C:\SIAFrameService.exe.config
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <appSettings>
+    <add key="WatchPath" value="\\10.1.1.137\HOST\HJ_To_Test\"/>
+    <add key="WatchFilter" value="*.HDC"/>
+    <add key="SourceFolder" value="\\10.1.1.137\HOST\HJ_To_Test\"/>
+    <add key="InprocessFolder" value="\\10.1.1.137\HOST\HJ_To_Test\inprocess\"/>
+    <add key="WriteFolder" value="\\10.1.1.137\HOST\HJ_To_Test\"/>
+   <add key="*WatchPath" value="c:\temp\HOST\HJ_To_Test\"/>
+    <add key="*WatchFilter" value="*.HDC"/>
+    <add key="*SourceFolder" value="c:\temp\HOST\HJ_To_Test\"/>
+    <add key="*InprocessFolder" value="c:\temp\HOST\HJ_To_Test\inprocess\"/>
+    <add key="*WriteFolder" value="c:\temp\HOST\HJ_To_Test\"/>
+  </appSettings>
+  <connectionStrings>
+    <add name="Innov_connect.Data.Properties.Settings.AADWCSConnectionString" connectionString="Data Source=10.1.1.182;Initial Catalog=AAD;User ID=HJS;Password=HJSPASS#1" providerName="System.Data.SqlClient"/>
+  </connectionStrings>
+  <startup>
+   <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.6.1"/> 
+  </startup>
+</configuration>
+
+
+
+
+My Wells Fargo Account: 5999296683  Routing: 121042882.
+
+E:\Program Files\HighJump\HighJump One Platform 1.0\MPageRuntime\Web\Extensions
+
+10.1.1.
+APP		 .75 Toad
+DEV 		.176
+
+QA 
+APP		180 (HJ1_Deployment) VT, Architect Bartender
+WEB		181 PE
+DB		182
+
+PRD
+APP		178 (Wokflow Engine,Architect, VT)
+WEB		177 (PE)  Printers
+DB		179
+Bartender	185  Label printers
+SIIMS		138 mwaframe02
+
+FedEx shipmanager Tech Support 1.877.339.2774
+
+Charles Clark usccharles.clark@gmail.com
+
+For Skylark Realty's PayPal or Venmo is ok. 
+Paypal: Troy Vathanadireg troyvathanadireg@gmail.com 
+Venmo: @Troy-Vathanadireg 323-893-8813
+
+
+$1,008.00 payable to Skylark Realty (Troy Vathanadireg)
+$3,692.00 payable to Charles Clark
+
+add user id to Highjump
+http://coihjweb.markwins.com:30000/workspace/Default.html
+
+Format . . . . :   FBAREDO          
+                                    
+Company number:           20        
+Customer number:            205700  
+Contract number:          37210     
+Contract expiry date:     1190901   
+Contract/promo indicator: 1         
+Contract description:     CVS- MBP  
+Contract start date:      1181201   
+Currency ID:                        
+
+d GetPricing      pi   0
+d Company             
+d RMANumber           
+d ItemNum             
+d BasePrice            3
+  
+-Check to prevent "No pcik detail found", run this SQL twicew a day and send email to Tiffany.
+select  top 10 *  from t_order (nolock) where (date_picked like  ' ' or date_picked  is NULL) or (carrier = '   ' or carrier is NULL)
+
+180 qa app
+
+Sept 2019 - week 3 (Sept 15th to Sept 21st )	Jason	626- 385-5311                   			WMS BA	Mobile Number
+Sept 2019 - week4 (Sept 22nd to Sept 28th)	Josie	562-628-9966 			Troy Burnett	909-477-7512 
+Oct 2019 - week 1 (Sept 29th to Oct 5th )	Scott	626-385-5029   			Jose Carrillo	909- 527-9228
+Oct 2019 - week 2 (Oct 6th to Oct 12th )	Jeff	909-378-0706         				
+Oct 2019 - week 3 (Oct 13th to Oct 19th )	Rey	626-513-6989   			Database Resouce	Mobile Number
+Oct 2019 - week 4 (Oct 20th to Oct 26th )	Colleen	 626-485-8931 			Derek Lee	909-551-1954
+Oct 2019 - week 5 (Oct 27th to Nov 2nd )	Hitoshi	 626-485-8931 				
+Nov 2019 - Week 1 (Nov 3rd to Nov 9th )		Jason	626- 385-5311                   Keyur Bodiwala	909-551-1070
+Nov 2019 - Week 2 (Nov 10th to Nov 16th )	Josie	562-628-9966 			
+Nov 2019 - Week 3 (Nov 17th to Nov 23rd )	Scott	626-385-5029   				
+Nov 2019 - Week 4 (Nov 24th to Nov 30th )	Jeff	909-378-0706         				
+Dec 2019 - Week 1 (1st Dec to 7th Dec )		Rey	626-513-6989   				
+Dec 2019 - Week 2 (8th Dec to 14th Dec )	Colleen	 626-485-8931 				
+Dec 2019 - Week 3 (15th Dec to 21st Dec )	Hitoshi	 626-485-8931 				
+Dec 2019 - Week 4 (22nd Dec to 28th Dec )	Jason	626- 385-5311                    				
+Dec 2019 - Week 5 (29th Dec to 4th Jan )	Josie	562-628-9966 				
+Jan 2020 - Week 1 (5th Jan to 11th Jan )	Scott	626-385-5029   				
+Jan 2020 - Week 2 (12th Jan to 18th Jan)	Jeff	909-378-0706         				
+Jan 2020 - Week 3 (19th Jan to 25th Jan)	Rey	626-513-6989   				
+Jan 2020 - Week 4 (26th Jan to 1st Feb)		Colleen	 626-485-8931 				
+Feb 2020 - Week 1 (2nd Feb to 8th Feb)		Hitoshi	 626-485-8931 				
+
+CRTPF FILE(MWADEV2/MBBREF) SRCFILE(MWADEV2/SWT17669) SRCMBR(MBBREF)              
+CRTPF FILE(MPM001/MBBREF) SRCFILE(MWADEV2/SWT17669) SRCMBR(MPM001)              
+
+RBTSYSLIB   SYS                   Robot System Library          
+QSYS        SYS                   System Library                
+QSYS2       SYS                   System Library for CPI's      
+QHLPSYS     SYS                                                 
+QUSRSYS     SYS                   System Library for Users      
+QPDA        PRD                                                 
+QTEMP       USR                                                 
+MULTIDATE9  USR                                                 
+MWFDEV3     USR                   MBB Master File Library       
+MWADEV3     USR                   MBB Program Library           
+MWFLIB3     USR                   MBB Master File Library       
+MWALIB3     USR                   MBB Program Library           
+                                                                
+
+http://extranet.highjumpsoftware.com/learn/vlabs/
+
+TBurnett01
+XtCol2Y!@21
+
+
+Me, Cyndy and Jason Shen have been looking for an IDE
+MARKWINSVLAB01
+MARKWINSVLAB01	FneE%4Y#a7T3
+
+MARKWINSVLAB02	RE$T37n4#ra%
+
+
+1. 6:00pm If you see more than 40,000 line items being or to be processed do step 2.
+WRKQRY
+ 2              1=Create, 
+                5=Display,
+                8=Run in b
+ shipments2     Name, F4 f
+   hijtst       Name, *LIB
+
+2. Change runpry to 10.
+3. Omit INV job to 23:30.
+4. Omit HJ ship job until 3am.
+
+
+
+Highjump support  800 328 3271
+Agendas:::::::
+KB
+Staging
+Check SWTxxxx before refresh.
+::::::::::::::::::::::::::::::::::::::
+
+!!!Source in MBBPGMN and obj is AMALIBN
+
+Dan's Phone: 330-671-9927 | dmiller@guidetechnologies.com 
+
+1. Change the load UU40al -> UserFieldText40
+2. Remove default &blank for ixcolr and ixduom from ITEMREVU
+
+sltk columns load
+select * from sltkcol 
+ 
+    
+CRTDUPOBJ OBJ(QSRC) FROMLIB(QTEMP) OBJTYPE(*FILE) TOLIB(MWADEVN) NEWOBJ(SWT19293) DATA(*YES)                                                              
+CRTPF FILE(AMFLIBN/CHGBKDP) SRCFILE(MBBDTAN/QSRC) SIZE(32000 32000 32) REUSEDLT(*YES) SRTSEQ(*LANGIDSHR)  
+
+CRTlF FILE(AMFLIBU/YAAREXTl1) SRCFILE(MBBDTAU/QSRC)    
+
+10044386116396
+
+                  Display Object Description - Full                        
+                                                                Library 1 of 1 
+Object . . . . . . . :   T087L10R        Attribute  . . . . . :   RPGLE        
+  Library  . . . . . :     ITLX9OBJ      Owner  . . . . . . . :   AMAPICS      
+Library ASP device . :   *SYSBAS         Library ASP group  . :   *SYSBAS      
+Type . . . . . . . . :   *PGM            Primary group  . . . :   *NONE        
+                                                                               
+User-defined information:                                                      
+  Attribute  . . . . . . . . . . . . . :                                       
+  Text . . . . . . . . . . . . . . . . :   Fattura Elettronica - scrittura file
+interfacce                                                                     
+Creation information:                                                          
+  Creation date/time . . . . . . . . . :   18/06/19  15:39:04                  
+  Created by user  . . . . . . . . . . :   GLUCARELLI                          
+  System created on  . . . . . . . . . :   PRDXACOI                            
+  Object domain  . . . . . . . . . . . :   *USER                               
+Change date/time . . . . . . . . . . :   18/06/19  15:39:04  
+Usage data collected . . . . . . . . :   YES                 
+Last used date . . . . . . . . . . . :   12/08/19            
+Days used count  . . . . . . . . . . :   41                  
+Program  . . . . . . . :   T087L10R      Library  . . . . . . . :   ITLX9OBJ   
+Owner  . . . . . . . . :   AMAPICS                                             
+Program attribute  . . :   RPGLE                                               
+Detail . . . . . . . . :   *SIZE                                               
+                                                                               
+                                                                               
+Program size (decompressed) and limit information:                             
+  Total program size (KB):                                                     
+    Current  . . . . . . . . . . . . . . . . . . :   2448                      
+    Maximum  . . . . . . . . . . . . . . . . . . :   268435456                 
+  Number of modules:                                                           
+    Current  . . . . . . . . . . . . . . . . . . :   1                         
+    Maximum  . . . . . . . . . . . . . . . . . . :   32767                     
+  Number of service programs:                                                  
+    Current  . . . . . . . . . . . . . . . . . . :   4                         
+    Maximum  . . . . . . . . . . . . . . . . . . :   32766                     
+
+
+
+
+
+
+Twin no source ?  source are the same across env
+UPSLIB
+ARCHIVE     *FILE     PF           012319 
+FEXREFH     *FILE     PF           080919 
+FEXREFHL1   *FILE     LF           080919 
+FEXREFW     *FILE     PF           080919 
+PCKORDL0    *FILE     LF           081219 
+PCKORDL3    *FILE     LF           081219 
+PCKORDL4    *FILE     LF           081219 
+PCKORDS     *FILE     PF           081219 
+QSRC        *FILE     PF           012319 
+UPUREF      *FILE     PF           081219 
+UPUREFL1    *FILE     LF           081119 
+UPUREFL2    *FILE     LF           081219 
+UPUREFL5    *FILE     LF           080919 
+UPUREFV     *FILE     PF           080919 
+UPUREFW     *FILE     PF           081219 
+UPUREFWL1   *FILE     LF           080919
+UPUREFWL2   *FILE     LF           081219
+UPUREFW2    *FILE     PF           080919
+
+GetPricing      pi                      
+Company                        2  0 cons
+RMANumber                      9    cons
+ItemNum                       15    cons
+BasePrice                     15  3     
+
+
+java -cp /qibm/proddata/os400/jt400/lib/jt400.jar com.ibm.as400.access.jdbcClient.Main jdbc:as400:localhost      
+
+The number to call AOPA will be : (800) 622-2672
+There is also some minimums you will have to follow which are:
+
+Aircraft Liability-
+$1,000,000 for each occurrence and $100,000 each passenger
+
+and 
+
+Aircraft Physical Damage-
+$5,000 each occurrence 
+
+With all that for renters insurance from AOPA it should come out to $319 for the whole year.
+
+Columns . . . :    6  76           Browse                   ITLX9UPD87/QSRCGDO 
+SEU==>                                                                T087L10R 
+550.00 C                   ENDIF                                               
+551.00 C     KITEM         CHAIN     ITMREXTL1                                 
+552.00 C                   IF        %FOUND(ITMREXTL1)                         
+553.00 C                   if        IXEANC <> *blanks and ENEANC = '1'        
+554.00 C                   if        V4BSCOA2 = *blanks                        
+555.00 C                   movel     wENTPEA       V4BSTIA2                    
+556.00 C                   movel     IXEANC        V4BSCOA2                    
+557.00 C                   goto      #exit4                                    
+558.00 C                   endif                                               
+tring itmrext found.                                                           
+
+Highjump check po
+Supply Chain Advantage->Advantage Dashboard->Receiving->Inbound Orders then input the PO numberupdate bus obj
+or 
+select * from t_po_detail (nolock) where po_number like 'P004110%' where item_number= 'enter item' 
+
+select * from t_po_detail (nolock) where po_number like 'P004110%' and item_number like '350080019%' 
+
+Morning Michael,  Thanks for creating my ifor ID.  I am trying to look up KB 2072314, but nothing comes up.   Also there is no downloadable patch for that KB.  
+
+Object . . . . . . . :   BSH131C         Attribute  . . . . . :   CLP         
+  Library  . . . . . :     PHY_PP        Owner  . . . . . . . :   ITIOWNER    
+Library ASP device . :   *SYSBAS         Library ASP group  . :   *SYSBAS     
+Type . . . . . . . . :   *PGM            Primary group  . . . :   *NONE       
+                                                                              
+User-defined information:                                                     
+  Attribute  . . . . . . . . . . . . . :                                      
+  Text . . . . . . . . . . . . . . . . :   BSY: Submit shipping paperwork     
+                                                                              
+Creation information:                                                         
+  Creation date/time . . . . . . . . . :   09/07/18  10:10:29                 
+  Created by user  . . . . . . . . . . :   ITIOWNER                           
+  System created on  . . . . . . . . . :   S1023E2R                           
+  Object domain  . . . . . . . . . . . :   *USER                              
+
+Object . . . . . . . :   BSY029R         Attribute  . . . . . :   RPGLE        
+  Library  . . . . . :     PHY_PP        Owner  . . . . . . . :   ITIOWNER     
+Library ASP device . :   *SYSBAS         Library ASP group  . :   *SYSBAS      
+Type . . . . . . . . :   *PGM            Primary group  . . . :   *NONE        
+                                                                               
+User-defined information:                                                      
+  Attribute  . . . . . . . . . . . . . :                                       
+  Text . . . . . . . . . . . . . . . . :   BSY: Order Header Interface (DOWNBOU
+D)                                                                             
+Creation information:                                                          
+  Creation date/time . . . . . . . . . :   08/28/18  12:54:49                  
+  Created by user  . . . . . . . . . . :   ITIOWNER                            
+  System created on  . . . . . . . . . :   S1023E2R                            
+  Object domain  . . . . . . . . . . . :   *USER                               
+                                                               
+Object . . . . . . . :   BSY029R3        Attribute  . . . . . :   RPGLE        
+  Library  . . . . . :     PHY_PP        Owner  . . . . . . . :   ITIOWNER     
+Library ASP device . :   *SYSBAS         Library ASP group  . :   *SYSBAS      
+Type . . . . . . . . :   *PGM            Primary group  . . . :   *NONE        
+                                                                               
+User-defined information:                                                      
+  Attribute  . . . . . . . . . . . . . :                                       
+  Text . . . . . . . . . . . . . . . . :   BSY: Get Ship To Address from Mapics
+                                                                               
+Creation information:                                                          
+  Creation date/time . . . . . . . . . :   08/28/18  12:54:49                  
+  Created by user  . . . . . . . . . . :   ITIOWNER                            
+  System created on  . . . . . . . . . :   S1023E2R                            
+  Object domain  . . . . . . . . . . . :   *USER                               
+                
+Object . . . . . . . :   BSY317R         Attribute  . . . . . :   RPGLE        
+  Library  . . . . . :     PHY_PP        Owner  . . . . . . . :   ITIOWNER     
+Library ASP device . :   *SYSBAS         Library ASP group  . :   *SYSBAS      
+Type . . . . . . . . :   *PGM            Primary group  . . . :   *NONE        
+                                                                               
+User-defined information:                                                      
+  Attribute  . . . . . . . . . . . . . :                                       
+  Text . . . . . . . . . . . . . . . . :   BSY: Allocate Open Case Replenishmen
+ Area                                                                          
+Creation information:                                                          
+  Creation date/time . . . . . . . . . :   09/04/18  13:41:31                  
+  Created by user  . . . . . . . . . . :   ITIOWNER                            
+  System created on  . . . . . . . . . :   S1023E2R                            
+  Object domain  . . . . . . . . . . . :   *USER                               
+
+                                                                Library 1 of 
+Object . . . . . . . :   RPK029D         Attribute  . . . . . :   DSPF       
+  Library  . . . . . :     PHY_PP        Owner  . . . . . . . :   ITIOWNER   
+Library ASP device . :   *SYSBAS         Library ASP group  . :   *SYSBAS    
+Type . . . . . . . . :   *FILE           Primary group  . . . :   *NONE      
+                                                                             
+User-defined information:                                                    
+  Attribute  . . . . . . . . . . . . . :                                     
+  Text . . . . . . . . . . . . . . . . :   PIC: RF Partial Unit Pick         
+                                                                             
+Creation information:                                                        
+  Creation date/time . . . . . . . . . :   11/10/16  14:51:44                
+  Created by user  . . . . . . . . . . :   ITIOWNER                          
+  System created on  . . . . . . . . . :   S1023E2R                          
+  Object domain  . . . . . . . . . . . :   *SYSTEM                           
+
+
+
+
+Fix PO issues						
+See PURs tab for issues being fixed						
+XA 						
+Enhancement and bug fix						
+XA - Hitoshi						
+XA						
+Correct PO items are sent to HJ						
+Procurment						
+none						
+						
+Consolidation of the Interlink-Wlink libraries in NN
+
+ Data area . . . . . . . :   ZJQDTA                                       
+  Library . . . . . . . :     AMFLIBN                                    
+Type  . . . . . . . . . :   *CHAR                                        
+Length  . . . . . . . . :   250                                          
+Text  . . . . . . . . . :                                                
+                                                                         
+           Value                                                         
+Offset      *...+....1....+....2....+....3....+....4....+....5           
+    0      'QBATCH7   QBATCH12  QBATCH8   QBATCH14  QBATCH9   '          
+   50      'QBATCH13  AXAPSQ    AXCTPQ                        '          
+  100      '                                                  '          
+  150      '                                                  '          
+  200      'QBATCHNN07QBATCHNN08QBATCHNN09                    '          c
+ 
+
+DATE  7/23/19              DISPLAY AND MAINTAIN           CHANGE     AMZS11  NN
+                           JOB QUEUE ASSIGNMENTS                               
+                                                                               
+                                                                               
+      JOB                                                                      
+      QUEUE         QUEUE FUNCTION            APPLICATION GROUPING             
+                                                                               
+      QBATCH7       FILE UPDATE PROCESSING    AP   CAS  FA   GL   IFM          
+      QBATCH12      REPORTS AND FILE LISTS    PR                               
+                                                                               
+      QBATCH8       FILE UPDATE PROCESSING    AR   CA   COM  CSM  EC           
+      QBATCH14      REPORTS AND FILE LISTS    EQM  FCPS KBC  MMA  SA           
+                                                                               
+      QBATCH9       FILE UPDATE PROCESSING    CRP  EPDM FCST IM   ISL          
+      QBATCH13      REPORTS AND FILE LISTS    MISL MM   MPA  MPSP MRP          
+                                              OBPM PCC  PDM  PM   PMC          
+                                              PUR  REP                         
+
+
+
+
+
+
+A few programs in MBBPGMN  - WMSLBL1C (Labels) - not used, WMS1004QA (Compare Infor to WMS) - select FROM phy_cstfil/ilcudt 
+A few programs in PFCGPL – STRWMSC* (Starts wms) - phy_files (ok)
+
+==PHY_CSTFIL==
+ASNSNDC   
+  EDIPGMN  ok -MONMSG     lib already exist MSGID(CPF2103)  
+BKUP_PSTA 
+  QGPL    
+FXTSNDC   
+  EDIPGMN  monmsg lib already exist
+INVSNDC   
+  EDIPGMN  monmsg
+INVSNDC  
+  EDIPGMU  monmsg
+INVSNDCX 
+  EDIPGMU  monmsg
+
+PFCJOBD_NN  
+  PFCGPL    
+RETURNJOBD
+  QGPL    
+WMSJOBD  
+  QGPL   
+
+AUTOBACKP
+  PFCGPL 
+
+==PHY_CSTPRD==
+PFCJOBD_CC
+  PFCGPL  
+PFCJOBD_NN 
+  PFCGPL   
+WMSJOBD   
+  QGPL    
+WMSJOBD1 
+  QGPL   
+
+AUTOBACKP
+  PFCGPL 
+
+
+addlible erlcom9   
+
+
+
+
+
+Object . . . . . . . :   WSAPREIT        Attribute  . . . . . :   RPGLE        
+  Library  . . . . . :     EDIPGMU       Owner  . . . . . . . :   AMAPICS      
+Library ASP device . :   *SYSBAS         Library ASP group  . :   *SYSBAS      
+Type . . . . . . . . :   *PGM            Primary group  . . . :   *NONE        
+                                                                               
+Change/Usage information:                                                      
+  Change date/time . . . . . . . . . . :   07/06/19  10:27:11                  
+  Usage data collected . . . . . . . . :   YES                                 
+  Last used date . . . . . . . . . . . :                                       
+  Days used count  . . . . . . . . . . :   0                                   
+    Reset date . . . . . . . . . . . . :                                       
+
+
+SETLL to Shipments Files - MBDH and MBDD
+From MBF9REP (invoice file) to read MBDHREP – header:
+setll (feaenb:fedccd:fecvnb) mbdhres0;
+To read MBDDREP - detail  using MBDHRES0:                      
+setll (dhaenb:dhdccd:dhcvnb:dhk4nb) mbddres0;       
+   
+
+
+ Job     Application     Program  Program                                       
+ Queue   2-character ID  Name     Description                                   
+ Number                                                                         
+    4          MB        AMBPC1   GLI List Chart of Accounts                    
+    4          MB        AMBPGQ   COM GLI Intercompany file list                
+    4          MB        AMBPGR   COM GLI Account Assignment file list          
+    4          MB        AMBPGS   COM GLI Account Assignment Sequence file list 
+    3          MB        AMBPGX   COM GLI Create Ledger entries                 
+    3          MB        AMBPGZ   COM GLI Assign Accounts                       
+    4          MB        AMBPL1   GLI Print and Clear Temporary General Ledger  
+>>    3          MB        AMBPQ1   COM Process EDI/OFFLINE Orders                
+>>   3          MB        AMBPQ2   COM Process Invoices                          
+    3          MB        AMBPQ3   COM Process Pro Forma Invoices                
+    4          MB        AMBPTR   COM Inventory Transaction Register            
+    3          MB        AMBPW2   COM Monthly Close                             
+    4          MB        AMBP31   COM Item Master Report                        
+ ********  End of data  ********                                                
+
+>> update Q No. from 3 to 2.	
+  
+
+Ticket 18836
+For now, I manually pushed out the P003773 with one item with (ALL) to HJ.   Please let me know if you need anything else.   
+1.  update hijpoiw1 file with the PO number and items.
+2. Call HIJPOIR5 with  no parm.    This will send the PO with specified items in the file.  
+
+Darren,   
+XA – HIJ PO interface had 3 issues and 2 of them are ready for testing.   One of the issue being differed is that PO header cancellation is not being sent and it will be addressed separately.
+
+For Mei’s bullet No. 2, please try:
+1.	Cancelling All Items at once.
+2.	Activate All Items at once.
+3.	Cancel partial items(or one by one) but not all. 
+4.	Activate partial or one item(s).’
+5.	In addition, anything you might think 
+
+Please let me know if you have any questions.
+
+Thank you.
+
+ File  . . . . . . . . . . . . . . . . . . . :            ITMREXT     
+   Library . . . . . . . . . . . . . . . . . :            MBBDTAU     
+   Member  . . . . . . . . . . . . . . . . . :            *NONE       
+   Record format . . . . . . . . . . . . . . :            *NONE       
+   Number of dependent files . . . . . . . . :                7       
+iles Dependent On Specified File                                      
+ Dependent File         Library       Dependency   JREF    Constraint 
+     ITMREXTI01         MBBDTAU       Data                            
+     ITMREXTI02         MBBDTAU       Data                            
+     ITMREXTL1          MBBDTAU       Data                            
+     ITMRE00001         MBBDTAU       Data                            
+     ITMREXTL2          MBBDTAU       Data                            
+     ITMREXTL5          MBBDTAU       Data                            
+     ITMSITRVW          AMFLIBU       Data                            
+
+
+Account Information June 26, 2019
+$182,308.26
+
+
+
+ct . . . . . . . :      ITMREXTL1                               +++        
+brary  . . . . . :      MBBDTAN              Attribute  . . :   LF         
+ct type  . . . . :      *FILE                Scan characters:   *NONE      
+ct text  . . . . :      Item Revision Extension                            
+                                             How used . . . .   *ALL       
+ options, press Enter.                                                     
+Source statement     4=Job explosion     5=File set used     6=Field X-ref 
+Program's objects    9=Where used        10=Job implosion    14=Compile ...
+                                                                           
+ How used    Program     Library     Attribute  +++  Program text          
+ QRYFILE     QTEMP       MBBPGMU     *QRYDFN                               
+RPG-INP     HIJIMIR1    HIJLIB      RPGLE           HIJ Interface Item Ma 
+RPG-UPD/AD  MIMUPDR8    MBBPGMN     RPGLE           Load ITMREXT, ITEMCTL 
+RPG-UPD/AD  MIMUPDR9A   MBBPGMN     RPGLE           Load ITMREXT, ITEMCTL 
+RPG-INP     QH_HLDCHKR  MBBPGMN     RPGLE           QH Hold Check-Hold Or 
+RPG-INP     UMDADH2R    MBBPGMN     RPGLE           Generate transaction  
+RPG-FILE    UMDADH2R    MBBPGMN     RPGLE           Generate transactio + 
+RPG-INP     UMDADK0R    MBBPGMN     RPGLE           Load buffer from tran
+RPG-FILE    UMDADK0R    MBBPGMN     RPGLE           Load buffer from tran
+RPG-INP     UMDADK1R    MBBPGMN     RPGLE           Load buffer for relat
+RPG-FILE    UMDADK1R    MBBPGMN     RPGLE           Load buffer for relat
+RPG-INP     UMDADM0R    MBBPGMN     RPGLE           Load buffer from data
+RPG-FILE    UMDADM0R    MBBPGMN     RPGLE           Load buffer from data
+RPG-INP     UMDADN0R    MBBPGMN     RPGLE           Edit buffer         +
+RPG-FILE    UMDADN0R    MBBPGMN     RPGLE           Edit buffer          
+RPG-INP     UMDADO0R    MBBPGMN     RPGLE           Update database from 
+RPG-FILE    UMDADO0R    MBBPGMN     RPGLE           Update database from 
+RPG-FILE    UMDADO0R    MBBPGMN     RPGLE           Update database from 
+RPG-FILE    UMDADP0R    MBBPGMN     RPGLE           Log maintenance histo
+RPG-FILE    UMDADP0R    MBBPGMN     RPGLE           Log maintenance histo
+RPG-INP     UPDITEMCTL  MBBPGMN     RPGLE           Update ITEMCTL from +
+RPG-INP     UPDITEMUCC  MBBPGMN     RPGLE           Update ITEMUCC from I
+t . . . . . . . :      ITMREXTL2                               +++       
+rary  . . . . . :      MBBDTAN              Attribute  . . :   LF        
+t type  . . . . :      *FILE                Scan characters:   *NONE     
+t text  . . . . :      Item Revision Extension                           
+                                            How used . . . .   *ALL      
+options, press Enter.                                                    
+ource statement     4=Job explosion     5=File set used     6=Field X-ref
+rogram's objects    9=Where used        10=Job implosion    14=Compile ..
+                                                                         
+How used    Program     Library     Attribute  +++  Program text         
+RPG-INP     MAV001R     MBBPGMN     RPGLE           item quantity update 
+RPG-INP     PPKHLDCHK   MBBPGMN     RPGLE           Prepack Hold Check-Ho
+RPG-INP     SAP7125R1   MBBPGMN     RPGLE           Print Cuts Report    
+t . . . . . . . :      ITMREXTL3                               +++       
+rary  . . . . . :      MBBDTAN              Attribute  . . :   LF        
+t type  . . . . :      *FILE                Scan characters:   *NONE     
+t text  . . . . :      Item Revision Extension by UPC                    
+                                            How used . . . .   *ALL      
+options, press Enter.                                                    
+ource statement     4=Job explosion     5=File set used     6=Field X-ref
+rogram's objects    9=Where used        10=Job implosion    14=Compile ..
+                                                                         
+How used    Program     Library     Attribute  +++  Program text         
+RPG-INP     PREPPOR0    EDIPGMN     RPGLE           Preprocessing of POD
+
+
+
+================================================d4rdcrtdat
+
+
+
+t . . . . . . . :      ITMREXTL1                               +++        
+rary  . . . . . :      MBBDTAU              Attribute  . . :   LF         
+t type  . . . . :      *FILE                Scan characters:   *NONE      
+t text  . . . . :      Item Revision Extension                            
+                                            How used . . . .   *ALL       
+options, press Enter.                                                     
+ource statement     4=Job explosion     5=File set used     6=Field X-ref 
+rogram's objects    9=Where used        10=Job implosion    14=Compile ...
+                                                                          
+How used    Program     Library     Attribute  +++  Program text          
+QRYFILE     ST_MBC_SPN  MBBPGMU     *QRYDFN         MBC AV. IN UU exclude 
+QRYFILE     STKSTSDANM  MBBPGMU     *QRYDFN                               
+QRYFILE     STKSTSEMEA  MBBPGMU     *QRYDFN                               
+QRYFILE     STKSTSEMET  MBBPGMU     *QRYDFN                               
+QRYFILE     STLSMK_SPN  MBBPGMU     *QRYDFN         LSMK AV. IN UU WITH P 
+RPG-INP     T087L10RUU  MBBPGMU     RPGLE           Fattura Elettronica - 
+RPG-INP     UMDADK0R    MBBPGMU     RPGLE           Load buffer from tr + 
+RPG-FILE    UMDADK0R    MBBPGMU     RPGLE           Load buffer from tran
+RPG-INP     UMDADM0R    MBBPGMU     RPGLE           Load buffer from data
+RPG-FILE    UMDADM0R    MBBPGMU     RPGLE           Load buffer from data
+RPG-INP     UMDADO0R    MBBPGMU     RPGLE           Update database from 
+RPG-FILE    UMDADO0R    MBBPGMU     RPGLE           Update database from 
+RPG-FILE    UMDADO0R    MBBPGMU     RPGLE           Update database from 
+t . . . . . . . :      ITMREXTL2                               +++       
+rary  . . . . . :      MBBDTAU              Attribute  . . :   LF        
+t type  . . . . :      *FILE                Scan characters:   *NONE     
+t text  . . . . :      Item Revision Extension                           
+                                            How used . . . .   *ALL      
+options, press Enter.                                                    
+ource statement     4=Job explosion     5=File set used     6=Field X-ref
+rogram's objects    9=Where used        10=Job implosion    14=Compile ..
+                                                                         
+How used    Program     Library     Attribute  +++  Program text         
+RPG-INP     ASNPRCR     EDIPGMU     RPGLE           EDI 856 Advance Ship 
+RPG-INP     CUSITADDR   EDIPGMU     RPGLE           EDI Customer Items no
+RPG-INP     INVPRCR     EDIPGMU     RPGLE           EDI 810 Invoice Proce
+RPG-INP     MBPSPF4R    MBBPGMU     RPGLE           @PI: Invoice Print Pg
+RPG-INP     MFRSPF4R    MBBPGMU     RPGLE           @PI: Invoice Print Pg
+RPG-INP     MFRSPF4R    MBBPGMU     RPGLE           @PI: Invoice Print Pg
+RPG-INP     MIMUPDR5    MBBPGMU     RPGLE           Calculates EAN      +
+RPG-INP     POEDITR     EDIPGMU     RPGLE           EDI 850 PO Data Edit  
+RPG-INP     PROSPF4R    MBBPGMU     RPGLE           @PI: Invoice Print Pg 
+RPG-INP     PROSPF4R    MBBPGMU     RPGLE           @PI: Invoice Print Pg 
+RPG-INP     TWOORDR1    TWOLIB      RPGLE           Quote/Order Program   
+RPG-INP     TWOPAKR3    TWOLIB      RPGLE           Generate Delivery Not 
+RPG-INP     WSOPRCR     EDIPGMU     RPGLE           EDI 940 Warehouse Shi 
+
+
+File level identifier . . . . . . . . . . . :            1190625151223     
+STRDBG PGM(HIJIMiR1) UPDPROD(*YES)    
+
+
+
+ITMSIT             AMFLIBN
+ITMRVA             AMFLIBN
+ITMREXT            MBBDTAN
+
+
+
+20190621
+Re: FW: HighJump: Bad LP - 2408734
+Hi Hitoshi,
+
+The following are the SQL I used.  I will go over the HJ tables with you at next meeting.  
+
+1.  Create the new hu_id
+insert t_hu_master (hu_id, type, control_number, location_id, status, fifo_date, wh_id, load_id, parent_hu_id) 
+select '191127000' as hu_id, type, control_number, location_id, status, fifo_date, wh_id, load_id, parent_hu_id
+from t_hu_master (nolock)
+where hu_id = '191127' and wh_id = 'COI'
+
+2.  Move the items from the old hu_id to the new hu_id
+update t_stored_item set hu_id = '191127000' where hu_id = '191127' and wh_id = 'COI'
+
+3. Delete the old hu_id
+delete from t_hu_master where hu_id = '191127' and wh_id = 'COI'
+
+
+Thanks,
+Wai
+
+
+
+Wai skype
+wkc.invs@skypeids.net
+
+
+ITMREXTI01         MBBDTAN       Data            
+ITMREXTB           MBBDTAN       Data            
+ITMREXTL1          MBBDTAN       Data      y     
+ITMREXTI02         MBBDTAN       Data            
+ITMREXTI03         MBBDTAN       Data            
+ITMREXTL2          MBBDTAN       Data      y     
+ITMSITRVW          AMFLIBN       Data      y     
+ITMREXTL3          MBBDTAN       Data      y     
+
+
+
+
+
+
+ QRYFILE     OPENORDDD   MBBDTAN     *QRYDFN 
+ QRYFILE     OPENORDD1   MBBDTAN     *QRYDFN 
+ QRYFILE     OPENORDD2   MBBDTAN     *QRYDFN 
+ QRYFILE     OPENORDD3   MBBDTAN     *QRYDFN 
+ QRYFILE     OPENORDD4   MBBDTAN     *QRYDFN 
+
+
+
+
+SELECT item_number,lot_number,location_id_2 ,employee_id
+FROM ARCH.AADUtilUser.t_tran_log_HIST
+WHERE ( location_id_2 = 'AFSTAGE')
+and item_number 
+IN ( '2459', '6227' )
+ORDER by tran_log_id desc
+
+
+HSASAKI/PR5
+Job run                     Program     Program description                    
+date/time                   name                                               
+2019-06-13-09.35.04.540288  HIJSHPR1A   HIJ Interface Shipments Process        
+2019-06-13-09.36.42.263220  HIJSHPR7    Update ASNs files                      
+2019-06-13-09.41.18.418722  HIJSHPR7    Update ASNs files                      
+2019-06-13-09.41.18.889954  HIJSHPR5    Load XA Offline files - Partial        
+2019-06-13-09.41.18.939470  HIJSHPR2    Generate Shipments using XA Offline Pro
+********  End of data  ********                                                
+
+Program:   AMZTRG8R       Library:   AMALIBN        Module:   AMZTRG8R         
+Storage limit exceeded for data queue DQZTUJ in *LIBL.                       + 
+CALL PGM(QCLRDTAQ) PARM('DQZTUJ' 'AMFLIBN')  
+
+
+HIJSHI - shipment master
+HIJSDI - shipment detail
+
+HIJASP - ASN pallet
+HIJASC - ASN case
+HIJASD - ASN item 
+
+                       
+10.1.1.179  HJ prod
+10.1.1.182  HJ QA
+10.1.1.179  HJ Dev
+                                
+                                                                              
+                                      
+Program:   HIJSHPR5       Library:   HIJLIB         Module:   HIJSHPR5         
+   171                                                                         
+   172         exsr loadosaarep;                                               
+   173         exsr loadosabcpp;                                               
+   174                                                                         
+   175         reset RtnCode;                                                  
+   176         reset GroupID;                                                  
+   177                                                                         
+   178         GroupID = xxCVNB;                                               
+   179         ShipOrder(RtnCode:Flag01:GroupID);                              
+   180                                                                         
+   181         endsr;                                                          
+                                        
+Type  Program                  Statement         Procedure                    
+      HIJSHPR2   HIJLIB                          _QRNP_PEP_HIJSHPR2           
+      HIJSHPR2   HIJLIB        21100             HIJSHPR2                     
+      HIJSHPR5   HIJLIB                          _QRNP_PEP_HIJSHPR5           
+      HIJSHPR5   HIJLIB        17900             HIJSHPR5                     
+      AMVOWXFR   AMALIBN       466        /00BC                               
+      AMVOYXFR   AMALIBN       5596       /060F                               
+      AMVOZXFR   AMALIBN       12166      /2744                               
+      AMBQGXFR   AMALIBN       5380       /0D08                               
+      AMBQUXFR   AMALIBN       .DRVRS16   /334A                               
+      QDBGETKY   QSYS          6820              QDBGETKY                     
+      QDBGETKY   QSYS          8279              SETCUR                       
+Job:   QPADEV002X     User:   HSASAKI        Number:   120784          
+Thread:   0000004F                                                     
+                                                                       
+                                                                       
+Type  Program                  Statement         Procedure             
+      HIJSHPR5   HIJLIB                          _QRNP_PEP_HIJSHPR5    
+      HIJSHPR5   HIJLIB        17900             HIJSHPR5              
+      AMVOWXFR   AMALIBN       466        /00BC                        
+      AMVOYXFR   AMALIBN       5516       /05D1                        
+      AMBP1XFR   AMALIBN       12980      /23E1                        
+      AMBP6XFR   AMALIBN       .DRVRU41   /6AC9                        
+      QDBUDR     QSYS          9721              QDBUDR                
+      QDBUDR     QSYS          19759             CALL_TRIGGER_PGM      
+      AMZTRG3C   AMALIBN       218        /00B4                        
+      AMZTRG3R   AMALIBN                         _QRNP_PEP_AMZTRG3R    
+      AMZTRG3R   AMALIBN                         AMZTRG3R              
+                                                                       
+Type  Program                  Statement         Procedure             
+      HIJSHPR5   HIJLIB                          _QRNP_PEP_HIJSHPR5    
+      HIJSHPR5   HIJLIB        17900             HIJSHPR5              
+      AMVOWXFR   AMALIBN       466        /00BC                        
+      AMVOYXFR   AMALIBN       5516       /05D1                        
+      AMBP1XFR   AMALIBN       12980      /23E1                        
+      AMBP6XFR   AMALIBN       16996      /32A4                        
+      AMBERXFR   AMALIBN       881        /017F                        
+      AMVIMH4R   AMALIBN                         _QRNP_PEP_AMVIMH4R    
+      AMVIMH4R   AMALIBN       1873              AMVIMH4R              
+      AMDIMH4R   AMALIBN                         _QRNP_PEP_AMDIMH4R    
+      AMDIMH4R   AMALIBN       1481              AMDIMH4R              
+      QRNXIO     QSYS          7                 _QRNX_DB_CHAIN        
+      QRNXIO     QSYS          169               Get_Random_DB_Record  
+Type  Program                  Statement         Procedure               
+      HIJSHPR5   HIJLIB                          _QRNP_PEP_HIJSHPR5      
+      HIJSHPR5   HIJLIB        17900             HIJSHPR5                
+      AMVOWXFR   AMALIBN       466        /00BC                          
+      AMVOYXFR   AMALIBN       5596       /060F                          
+      AMVOZXFR   AMALIBN       12222      /2767                          
+      AMBQGXFR   AMALIBN       6602       /0FF7                          
+      AMBN3XFR   AMALIBN       1284       /0241                          
+      AMBERXFR   AMALIBN       881        /017F                          
+      AMVIMH4R   AMALIBN                         _QRNP_PEP_AMVIMH4R      
+      AMVIMH4R   AMALIBN       1873              AMVIMH4R                
+      AMDIMH4R   AMALIBN                         _QRNP_PEP_AMDIMH4R      
+      AMDIMH4R   AMALIBN       1652              AMDIMH4R                
+      AMDFEP0R   AMALIBN                         _QRNP_PEP_AMDFEP0R      
+Type  Program                  Statement         Procedure             
+      HIJSHPR5   HIJLIB                          _QRNP_PEP_HIJSHPR5    
+      HIJSHPR5   HIJLIB        17900             HIJSHPR5              
+      AMVOWXFR   AMALIBN       466        /00BC                        
+      AMVOYXFR   AMALIBN       5596       /060F                        
+      AMVOZXFR   AMALIBN       12166      /2744                        
+      AMBQGXFR   AMALIBN       9106       /197E                        
+      AMBCBUPC   AMALIBN       83         /006E                        
+      AMI3G      AMALIBN                         _QRNP_PEP_AMI3G       
+      AMI3G      AMALIBN       22265             AMI3G                 
+      AMI3H      AMALIBN                         _QRNP_PEP_AMI3H       
+      AMI3H      AMALIBN       1018              AMI3H                 
+      AMI3H      AMALIBN       1756              RUNTRANSACTION        
+      AI6M8AAAAB QTEMP                           _QRNP_PEP_PSVMGH0R    
+
+Message ID . . . . . . :   CPI433A                                             
+Date sent  . . . . . . :   06/12/19      Time sent  . . . . . . :   09:19:20   
+                                                                               
+Message . . . . :   Unable to retrieve query options file.                     
+                                                                               
+Cause . . . . . :   Unable to retrieve the query options from member QAQQINI   
+  in file QAQQINI in library QUSRSYS for reason code 2.  The reason codes and  
+  their meanings follow:                                                       
+    1 - Library QUSRSYS was not found.                                         
+    2 - File QAQQINI in library QUSRSYS was not found.                         
+    3 - The file was damaged.                                                  
+    4 - The file was locked by another process which prevented successful      
+  retrieval of the query options.                                              
+    5 - File QAQQINI and the internal query options structures are out of      
+  sync.                                                                        
+    6 - An unexpected error occurred while trying to retrieve the options    
+ Message ID . . . . . . :   CPI433A       Severity . . . . . . . :   00       
+ Date sent  . . . . . . :   06/12/19      Time sent  . . . . . . :   09:19:20 
+ Message type . . . . . :   Information                                       
+ From . . . . . . . . . :   HSASAKI       CCSID  . . . . . . . . :   65535    
+                                                                              
+ From program . . . . . . . . . :   QQQSRVI1                                  
+   From library . . . . . . . . :     QSYS                                    
+   From module  . . . . . . . . :     QQQAINI                                 
+   From procedure . . . . . . . :     GETMSGTXT                               
+   From statement . . . . . . . :     11261                                   
+                                                                              
+ To program . . . . . . . . . . :   QQQSRVE1                                  
+   To library . . . . . . . . . :     QSYS                                    
+   To module  . . . . . . . . . :     QQQGINI                                 
+   To procedure . . . . . . . . :     QQGETINIOPTIONS                         
+   To statement . . . . . . . . :     1259                                    
+  
+
+                             Display Module Source                         
+                                                                           
+ Program:   AMZAIH2R       Library:   AMALIBN        Module:   AMZAIH2R    
+                                                                           
+   (Source not available.)                                                 
+                                                                           
+                                                                           
+
+
+
+
+COIHJDEV   sql server dev
+
+update  hsasaki.hijshi  set SHPCDE ='I'                     
+ 112 rows updated in HIJSHI in HSASAKI.                      
+update  hsasaki.hijsdi  set SdPCDE ='I'                     
+ 5616 rows updated in HIJSDI in HSASAKI.                     
+update  hijlib.hijsdi                 
+set  sdpcde ='I'    
+where sdordn like '2403634%'          
+
+update  hijlib.hijshi               
+set  shpcde ='I'  
+where shordn like '2403634%'        
+
+update  hijlib.xaaarep   set aaaiss = ' ' 
+where AACVNB like   '2403634%'            
+ 111 rows updated in XAAAREP in HIJLIB.    
+
+
+
+SELECT ODLBNM, ODOBNM, ODOBTP, ODOBAT, ODCDAT, ODOBOW, ODUDAT,ODCRTU
+ FROM                                                               
+hsasaki.hqgpl WHERE ODOBOW not in                                   
+('QSECOFR','QDFTOWN','QSNADS','QUSER','QIJS',                       
+'QPGMR','QSYS','QFNC','QDSNX', 'QSPL' )                             
+order by ODOBOW,        ODCRTU       
+
+SELECT ODLBNM, ODOBNM, ODOBTP, ODOBAT, ODCDAT, ODOBOW case when ODOBOW in                                   
+('QSECOFR','QDFTOWN','QSNADS','QUSER','QIJS',                       
+'QPGMR','QSYS','QFNC','QDSNX', 'QSPL' ) then 'IBM' else ODOBOW 
+, ODUDAT,ODCRTU
+ FROM                                                               
+hsasaki.hqgpl                             
+order by ODOBOW,        ODCRTU                                      
+
+
+
+ insert into osaarep                     
+  (mxajss,mxnwcd,mxntcd,mxaenb,mxcvnb,  
+   mxkznb,mxdccd,mxa3cd,mxivnb,mxf1cd,  
+   mxhxtx,mxacr5,mxaess,mxahss)         
+                                        
+  (Select                               
+   aaajss,aanwcd,aantcd,aaaenb,aacvnb,  
+   aakznb,aadccd,aaa3cd,aaivnb,aaf1cd,  
+   aahxtx,aaacr5,aaaess, aaahss         
+   from xaaarep                         
+   where aacvnb = :xxCVNB               
+   and   aaaenb = :xxAENB               
+   fetch first row only);               
+
+ Update osaarep set       
+mxkznb = 0,              
+mxeinb = :digitMM,       
+mxabg2 = :digitYY,       
+mxaldt = :cymddate,      
+mxabtm = :systime,       
+mxafvn = :jobuser,       
+mxagvn = :ThisProgram    
+where mxcvnb = :xxCVNB   
+and   mxaenb = :xxAENB;  
+
+insert into osabcpp                      
+                                         
+(myajss, myx2nb, mynwcd, myntcd,         
+ mydccd, mycvnb, myfcnb, myaitx, myarqt, 
+ mydrnb, myaafx, myaayn)                 
+                                         
+(Select                                  
+ abajss, abx2nb, abnwcd, abntcd,         
+ abdccd, abcvnb, abfcnb, abaitx, abarqt, 
+ abdrnb, abaafx, abaayn                  
+ from xaabcpp                            
+ where abcvnb = :xxCVNB                  
+ and   abaenb = :xxAENB);                
+
+select mxaiss, mxx4nb, mxerfl into :xxaiss, :xxx4nb, :xxerfl  
+from osaarep                                                  
+where mxcvnb = :xxCVNB                                        
+and   mxaenb = :xxAENB;                                   
+
+  Update xaaarep set         
+     aaaiss = :xxaiss        
+   , aax4nb = :xxx4nb        
+   , aaerfl = :xxerfl        
+   , aaamdt = :CYMDDate      
+   , aaactm = :Systime       
+   , aaahvn = :JobUser       
+   , aaaivn = :ThisProgram   
+     where aacvnb = :xxCVNB  
+     and   aaaenb = :xxAENB; 
+    
+
+Update xaabcpp  set        
+   abamdt = :CYMDDate      
+ , abactm = :Systime       
+ , abahvn = :JobUser       
+ , abaivn = :ThisProgram   
+   where abcvnb = :xxCVNB  
+   and   abaenb = :xxAENB; 
+
+    insert into xaaacpp              
+    (Select * from osaacpp           
+     where (aanwcd,aaajss,aantcd) in 
+     ( select mxnwcd,mxajss,mxntcd   
+       from osaarep                  
+       where mxcvnb = :xxCVNB        
+       and   mxaenb = :xxAENB));     
+    exec sql                         
+    delete from osaacpp              
+     where (aanwcd,aaajss,aantcd) in 
+    (select mxnwcd,mxajss,mxntcd     
+      from osaarep                   
+      where mxcvnb = :xxCVNB         
+      and   mxaenb = :xxAENB);       
+
+    delete from osaarep     
+    where mxcvnb = :xxCVNB  
+     and  mxaenb = :xxAENB; 
+    exec sql                
+    delete from osabcpp     
+    where mycvnb = :xxCVNB; 
+
+
+HIJSHI - shipment master
+HIJSDI - shipment detail
+
+HIJASP - ASN pallet
+HIJASC - ASN case
+HIJASD - ASN item 
+
+COIHJDEV   sql server dev
+
+update  hsasaki.hijshi  set SHPCDE ='I'                     
+ 112 rows updated in HIJSHI in HSASAKI.                      
+update  hsasaki.hijsdi  set SdPCDE ='I'                     
+ 5616 rows updated in HIJSDI in HSASAKI.                     
+insert into hijlib.hijshi               	
+ 112 rows inserted in HIJSHI in HIJLIB.  
+insert into hijlib.hijsdi               
+ 5616 rows inserted in HIJSDI in HIJLIB. 
+update  hijlib.xaaarep   set aaaiss = ' ' 
+where AACVNB like   '2403634%'            
+ 111 rows updated in XAAAREP in HIJLIB.    
+
+
+
+SELECT ODLBNM, ODOBNM, ODOBTP, ODOBAT, ODCDAT, ODOBOW, ODUDAT,ODCRTU
+ FROM                                                               
+hsasaki.hqgpl WHERE ODOBOW not in                                   
+('QSECOFR','QDFTOWN','QSNADS','QUSER','QIJS',                       
+'QPGMR','QSYS','QFNC','QDSNX', 'QSPL' )                             
+order by ODOBOW,        ODCRTU       
+
+SELECT ODLBNM, ODOBNM, ODOBTP, ODOBAT, ODCDAT, ODOBOW case when ODOBOW in                                   
+('QSECOFR','QDFTOWN','QSNADS','QUSER','QIJS',                       
+'QPGMR','QSYS','QFNC','QDSNX', 'QSPL' ) then 'IBM' else ODOBOW 
+, ODUDAT,ODCRTU
+ FROM                                                               
+hsasaki.hqgpl                             
+order by ODOBOW,        ODCRTU                                      
+
+
+
+ insert into osaarep                     
+  (mxajss,mxnwcd,mxntcd,mxaenb,mxcvnb,  
+   mxkznb,mxdccd,mxa3cd,mxivnb,mxf1cd,  
+   mxhxtx,mxacr5,mxaess,mxahss)         
+                                        
+  (Select                               
+   aaajss,aanwcd,aantcd,aaaenb,aacvnb,  
+   aakznb,aadccd,aaa3cd,aaivnb,aaf1cd,  
+   aahxtx,aaacr5,aaaess, aaahss         
+   from xaaarep                         
+   where aacvnb = :xxCVNB               
+   and   aaaenb = :xxAENB               
+   fetch first row only);               
+
+ Update osaarep set       
+mxkznb = 0,              
+mxeinb = :digitMM,       
+mxabg2 = :digitYY,       
+mxaldt = :cymddate,      
+mxabtm = :systime,       
+mxafvn = :jobuser,       
+mxagvn = :ThisProgram    
+where mxcvnb = :xxCVNB   
+and   mxaenb = :xxAENB;  
+
+insert into osabcpp                      
+                                         
+(myajss, myx2nb, mynwcd, myntcd,         
+ mydccd, mycvnb, myfcnb, myaitx, myarqt, 
+ mydrnb, myaafx, myaayn)                 
+                                         
+(Select                                  
+ abajss, abx2nb, abnwcd, abntcd,         
+ abdccd, abcvnb, abfcnb, abaitx, abarqt, 
+ abdrnb, abaafx, abaayn                  
+ from xaabcpp                            
+ where abcvnb = :xxCVNB                  
+ and   abaenb = :xxAENB);                
+
+select mxaiss, mxx4nb, mxerfl into :xxaiss, :xxx4nb, :xxerfl  
+from osaarep                                                  
+where mxcvnb = :xxCVNB                                        
+and   mxaenb = :xxAENB;                                   
+
+  Update xaaarep set         
+     aaaiss = :xxaiss        
+   , aax4nb = :xxx4nb        
+   , aaerfl = :xxerfl        
+   , aaamdt = :CYMDDate      
+   , aaactm = :Systime       
+   , aaahvn = :JobUser       
+   , aaaivn = :ThisProgram   
+     where aacvnb = :xxCVNB  
+     and   aaaenb = :xxAENB; 
+    
+
+Update xaabcpp  set        
+   abamdt = :CYMDDate      
+ , abactm = :Systime       
+ , abahvn = :JobUser       
+ , abaivn = :ThisProgram   
+   where abcvnb = :xxCVNB  
+   and   abaenb = :xxAENB; 
+
+    insert into xaaacpp              
+    (Select * from osaacpp           
+     where (aanwcd,aaajss,aantcd) in 
+     ( select mxnwcd,mxajss,mxntcd   
+       from osaarep                  
+       where mxcvnb = :xxCVNB        
+       and   mxaenb = :xxAENB));     
+    exec sql                         
+    delete from osaacpp              
+     where (aanwcd,aaajss,aantcd) in 
+    (select mxnwcd,mxajss,mxntcd     
+      from osaarep                   
+      where mxcvnb = :xxCVNB         
+      and   mxaenb = :xxAENB);       
+
+    delete from osaarep     
+    where mxcvnb = :xxCVNB  
+     and  mxaenb = :xxAENB; 
+    exec sql                
+    delete from osabcpp     
+    where mycvnb = :xxCVNB; 
+
+
+Hello Hitoshi,
+
+Please see below list of some customers that we will ship packages via Canpar.
+
+Wal-mart Canada
+50025303
+50038003
+
+Amazon Canada
+50030203
+30231003
+
+Shoppers Drug Mart
+50036403
+30028503
+30068703
+
+McKesson Canada
+50034003
+30168903
+30168703
+
+
+IMPORTER:
+MARKWINS CANADA CORPORATION
+267 MATHESON BLVD E
+MISSISSAUGA, ON L4Z1X8
+BROKER FOR CUSTOMS CLEARANCE:
+WILLIAM RUTHERFORD LTD.
+denise@rutherfordglobal.com
+905-673-2222
+F:905-670-2618
